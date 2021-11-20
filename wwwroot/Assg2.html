@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="/wwwroot/css/bootstrap.css" rel="Stylesheet">
+    <style>
+body{
+    background-image: url(/wwwroot/images/Farm-equipments.jpg);
+    background-size: cover;
+}
+.border{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 600px;
+    border-radius: 25px;
+    padding: 0;
+    
+}
+</style>
+</head>
+<body>
+    
+    <!--navbar begins-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Home</a>
+            <button type="button" class="navbar-toggler" data-bs-target="#myNavbar" data-bs-toggle="collapse"
+            aria-expanded="false" aria-labelledby="myNavbar">
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link">Activity</a>
+                </div>
+
+                <!--margin-left:auto-->
+                <div class="nav-item ms-auto">
+                    <a class="nav-link" href="#">Log In</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div>
+            <form class="d-flex justify-content-center border">
+                <div class="col-md-10">
+                    <h3 class="text-center">CONTACT FORM</h3><br>
+                    <!--your form begins here-->
+                            <div class="form-group mt-2">
+                                <label>This are the textbox</label>
+                                <input type="text" class="form-control"
+                                placeholder="enter your Name">
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control"
+                                placeholder="enter your email">
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control"
+                                placeholder="enter your address">
+                            </div>
+                            <div class="form-group mt-5">
+                                <label>This is the Textarea</label>
+                                <div class="input-group">
+                                <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="2500" required></textarea>
+                                </div>
+                            </div>
+                    
+                            <div class="form-group mt-2">
+                                <button type="submit" id="button" class="btn btn-primary btn-lg btn-block">Send Message</button>
+                            </div>
+                </div>  
+            </form>
+            </div>
+        </div>
+    </div>
+    </body>                        
+</body>
+</html>
+               
